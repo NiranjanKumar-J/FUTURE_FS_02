@@ -28,7 +28,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-4">Contact Us</h3>
           <p className="text-gray-400">123, Tech Park, Madurai, India</p>
-          <p className="text-gray-400 mt-2">support@myshop.com</p>
+          <p className="text-gray-400 mt-2">support@nammakadai.com</p>
           <p className="text-gray-400 mt-2">+91 98765 43210</p>
         </div>
       </div>
