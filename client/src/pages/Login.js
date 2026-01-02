@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // API Request to Backend
-      const res = await axios.post('http://localhost:5000/api/auth/login', { email, password });
+      const res = await axios.post('https://future-fs-02-pi-bice.vercel.app/api/auth/login', { email, password });
       
       // Update Auth Context
       login(res.data.token, res.data.user);

@@ -20,7 +20,7 @@ const ProductDetails = () => {
   const [newReview, setNewReview] = useState("");
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/products/${id}`)
+    axios.get(`https://future-fs-02-pi-bice.vercel.app/api/products/${id}`)
       .then((res) => setProduct(res.data))
       .catch((err) => console.error("Error:", err));
   }, [id]);
